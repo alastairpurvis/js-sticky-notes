@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notepad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="grid">
+			<h3>New Note</h3>
+			<p>
+    			<textarea placeholder="Write something awesome here..." id="new-note" rows="5"></textarea>
+            </p>
+            <button>Add Note</button>
+		</div>
+		<div class="grid">
+			<h3>Archived Notes</h3>
+			<ul id="archived-notes">
+                <li id="example">
+					<div>Example of an editable note.
+					</div>
+					<textarea></textarea>
+                    <button class="edit">Edit</button>
+                    <button class="flag">Flag</button>
+                    <button class="delete">Delete</button>
+				</li>
+				<li>
+					<div>
+                    <strong>About</strong>
+                    <br />
+					<p>Quick note app using native DOM traversal. </p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
