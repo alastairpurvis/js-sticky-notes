@@ -1,6 +1,6 @@
 ## Note app
 
-Quick sticky note app using vanilla DOM traversal. [Demo](http://alastairpurvis.com/samples/note-app)
+Quick sticky note app using vanilla DOM traversal. [Demo](https://alastairpurvis.com/samples/note-app)
 
 ## License
 
